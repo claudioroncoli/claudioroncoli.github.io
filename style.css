@@ -1,0 +1,253 @@
+body
+{
+background-color: #E8E8E8;
+color: black;
+font-family: Helvetica;
+}
+
+.inner
+{
+width: 1150px;
+height: 400px;
+margin: auto;
+}
+
+.bord
+{
+border: 3px solid #FFFFFF;
+}
+
+.widtd
+{
+width: 150px;
+}
+
+.divGen
+{
+background-color: white;
+}
+
+.divBackground
+{
+background-color: #E8E8E8;
+}
+
+.smallfont
+{
+font-size: small;
+}
+
+.divSp
+{
+height: 10px;
+}
+
+.center {
+  text-align: center;
+  margin:0 0 0 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.listPub li
+{
+line-height: 1em;
+margin-bottom: 1.5em;
+margin-right: 20px;
+text-align: justify;
+text-justify: inter-word;
+}
+
+.uline
+{
+text-decoration: underline;
+}
+
+.buttonCv
+{
+width: 80px;
+height: 80px;
+background: #373D4A;
+border-radius: 80px;
+-moz-border-radius: 80px;
+border: 3px solid #373D4A;
+cursor: hand;
+cursor: pointer;
+color: #555555;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.buttonScholar
+{
+width: 80px;
+height: 80px;
+background: #D8C9C3;
+border-radius: 80px;
+-moz-border-radius: 80px;
+border: 3px solid #D8C9C3;
+cursor: hand;
+cursor: pointer;
+color: #555555;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.buttonScopus
+{
+width: 80px;
+height: 80px;
+background: #FE8300;
+border-radius: 80px;
+-moz-border-radius: 80px;
+border: 3px solid #FE8300;
+cursor: hand;
+cursor: pointer;
+color: #555555;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.imgButton
+{
+width:50px;
+margin:15px 15px 15px 15px;
+}
+
+.buttonHover
+{
+color: black;
+border-color: #FFFFFF;
+}
+
+.cr
+{
+background-color: red;
+}
+
+.cy
+{
+background: yellow;
+}
+
+.cb
+{
+background-color: blue;
+}
+
+/* jquery-ui style */
+
+.ui-widget {
+	font-size: small;
+}
+.ui-widget .ui-widget {
+	font-size: small;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-size: small;
+}
+.ui-widget-content {
+	border: 3px solid #FFFFFF;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background: white;
+	color: black;
+	height: auto;
+}
+
+.ui-widget-content a {
+	color: black;
+}
+.ui-widget-header {
+	background: #FFFFFF;
+	border-width:0px;
+	color: black;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.ui-widget-header a {
+	color: black;
+}
+.ui-tabs {
+	position: relative;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px 4px 0 0;
+	border-bottom-width: 0;
+	border-color: #FFFFFF;
+	padding: 0;
+	white-space: nowrap;
+	font-weight: bold;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+	color: #464646;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-color: #464646;
+	font-size: 110%;
+}
+.ui-tabs .ui-tabs-nav li a:hover {
+	color: #ffa100;
+	border-color: #ffa100;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+	cursor: text;
+	background: white;
+}
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+	cursor: pointer;
+	background: #EEEEEE;	/* tendine non selezionate */
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+}
+.liList {
+	margin:0 0 1.5em 0;
+}
+.smallTitle {
+	color: #ffa100;
+	font-size: 110%;
+}
+.tabStud  {
+	width: 900px;
+}
+.tdName {
+	width: 25%;
+}
+.tdYears { 
+	width: 15%;
+}
+.tdName2 {
+	width: 25%;
+}
+.tdYears2 { 
+	width: 10%;
+	padding-right: 7px;
+	text-align: right;
+}

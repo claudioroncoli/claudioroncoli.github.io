@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<title>Claudio Roncoli - Personal and research group page</title>
+	
+	<link rel="shortcut icon" href="myicon.ico" />
+
+	<link rel="stylesheet" href="jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="jquery-1.9.1.js"></script>
+	<script src="jquery-ui.js"></script>
+
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	
+	$( "#dialog-link, #icons li" ).hover(
+		function() {
+			$( this ).addClass( "ui-state-hover" );
+		},
+		function() {
+			$( this ).removeClass( "ui-state-hover" );
+		}
+	);
+	
+	$(document).ready(function() {
+		$('div.buttonCv').hover(
+			function () {
+				$(this).addClass( "buttonHover" );
+			}, 
+			function () {
+				$(this).removeClass( "buttonHover" );
+			}
+		);
+	});
+	
+	$(document).ready(function() {
+		$('div.buttonScopus').hover(
+			function () {
+				$(this).addClass( "buttonHover" );
+			}, 
+			function () {
+				$(this).removeClass( "buttonHover" );
+			}
+		);
+	});
+	
+	$(document).ready(function() {
+		$('div.buttonScholar').hover(
+			function () {
+				$(this).addClass( "buttonHover" );
+			}, 
+			function () {
+				$(this).removeClass( "buttonHover" );
+			}
+		);
+	});
+	
+	</script>
+
+</head>
+<body>
+<div style="width: 100%;">
+	<div class="inner">
+		<div class="divGen divBackground" style="height:22px;"></div>
+		
+		<div class="divGen bord" style="height:360px;">
+			<div style="width:41%; height: 100%; float:left;">
+				<img src="photo_wide.jpg" height="296" alt="My photo" style="margin-top:8px; margin-left:8px" />
+				<div class="smallfont" style="float:right; margin-right:20px; margin-top:-4px; color:grey; font-style:italic;">
+					Photo credits: Aalto University / Jaakko Kahilaniemi
+				</div>
+			</div>
+			<div style="width:45%; height: 100%; float:left;>">
+				<h1>Dr. Claudio Roncoli</h1>
+				<h3>Associate Professor</h3>
+				<h4>Aalto University</h4>
+				
+				<p>Department of Built Environment<br/>
+				School of Engineering<br/></p>
+				<p><i>Visiting address:</i> Otakaari 4, Espoo, Finland<br/>
+				<i>Postal address:</i> P.O. Box 14100, FI-00076 AALTO, Finland</p>
+				<p><i>E-mail:</i> claudio.roncoli _at_ aalto.fi</p>
+			</div>
+			<div class="divGen" style="width:100px; height:100%; float:right; margin-right:6px;"">
+				<div class="divGen" style="height:8px;"></div>
+				<div class="divGen" style="height:286px; width:100px;">
+					<div class="buttonScopus" onclick="window.open(&#39;http://www.scopus.com/authid/detail.url?authorId=43661662200&#39;);">
+						<img src="./scopus_icon.png" alt="Scopus" class="imgButton"> 
+					</div>
+					<div class="smallfont center bold"">Scopus</div>
+					<div class="divGen" style="height:8px;"></div>
+					<div class="buttonScholar" onclick="window.open(&#39;http://scholar.google.gr/citations?hl=en&amp;user=1GvzB2YAAAAJ&amp;view_op=list_works&#39;);">
+						<img src="./scholar_icon.png" alt="Google Scholar" class="imgButton"> 
+					</div>
+					<div class="smallfont center bold"">Google Scholar</div>
+					<div class="divGen" style="height:8px;"></div>
+					<div class="buttonCv" onclick="window.open(&#39;cv_Roncoli.pdf&#39;);">
+						<img src="./acrobat_icon.png" alt="Download CV" class="imgButton"> 
+					</div>
+					<div class="smallfont center bold"">Download CV</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="divGen bord smallfont" style="padding: 5px; height:16px;">
+			<div style="float:left; margin-left:5px;">
+				Last updated: 02/10/2024
+			</div>
+			<div style="float:right; margin-right:5px;">
+				&copy; Copyright 2013-2024 Claudio Roncoli
+			</div>
+		</div>
+		
+		<div class="divGen divBackground" style="height:30px;"></div>
+	</div>
+</div>
+</body>
